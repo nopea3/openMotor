@@ -1,0 +1,10 @@
+import pyautogui
+import tkinter
+
+
+spamSana = input('mitä sanaa haluaisit toistaa') #asking what world would you like to spam
+
+def spamming():
+    while True:
+        pyautogui.typewrite(spamSana)
+        
